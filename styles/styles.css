@@ -1,3 +1,6 @@
+/* In hindsight, the code could've been cleaner with more section-spanning 
+classes as some sections had a lot of font and margin css in common. */
+
 .site-structure {
     margin-left: 145px;
     margin-right: 129px;
