@@ -21,20 +21,32 @@
     padding: 65px;
     border-radius: 8px;
 }
+.form-input-fields {
+    display:flex;
+    flex-direction: column;   
+}
+
 .label {
     background-color: white;
     border-color: white;
     border-style: solid;
     border-width: 1px 1px 0px 1px;
     border-radius: 5px 5px 0px 0px;
-    
+    padding:5px 0px 0px 10px;   
 }
 .input-field {
+    min-height: 30px;
     border:none;
     border-radius: 0px 0px 5px 5px;
-    margin-bottom: 25px ;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.input-field:focus {
+outline-width: 1px;
+outline-color:#818a91;
 }
 .select {
+    padding-left: 17px;
     cursor: pointer;
 }
 .button {
@@ -52,7 +64,4 @@
 .button:hover {
     background-color: #bd4515;
 }
-.form-input-fields {
-    display:flex;
-    flex-direction: column;   
-}
+
