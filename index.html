@@ -11,29 +11,26 @@
     </head>
     <body class="site-structure">
         <div class="form-base-layer">
-            <div style="display:flex; justify-content:end;">
+            <div>
                 <form action="" class="form-input-fields">
-                    <label for="fname">First name</label>
-                    <input type="text" id="fname" name="fname">
+                    <label for="fname" class="label">First name</label>
+                    <input type="fname" placeholder="First name" id="fname" name="fname">
                     <label for="lname">Surname</label>
-                    <label for="email">Email</label>
-                    <input type="email" placeholder="Your Email">
-                    <label for=""></label>
-                    <select class="select" name="Message Regarding" id="Message-type">
-                        <option value="Template">Choose one</option>
-                        <option value="The big Picture">Ducks</option>
-                        <option value="The whole chebang">Two ducks</option>
-                        <option value="Template">Choose one</option>
+                    <input type="lname" placeholder="Surname" id="lname" name="lname">
+                    <label for="email" >Email</label>
+                    <input type="email" id="email" placeholder="Email (name@enterprise.com)" required>
+                    <label for="select">Are of interest</label>
+                    <select class="select" name="solution" id="select">
+                        <option value="feature" selected>New Feature</option>
+                        <option value="software">Software solution</option>
+                        <option value="everything">Everything</option>
                     </select>
-                    <label for=""></label>
-                    <input type="text">
-                    <button></button>
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Password (8 char. min.)" minlength="8" id="password" required>
+                    <label for="confirm-password"></label>
+                    <input type="password" placeholder="Confirm Password" id="confirm-password" required>
+                    <button class= "button" type="submit" formtarget="">Submit</button>
                 </form>
-                <div class="img-duck">
-                    <img src="images/hiclipart 2.png" alt="anka">
-                </div>
-            </div>    
-            <div class="rectangle-right">   
             </div>     
         </div>
     </body>
