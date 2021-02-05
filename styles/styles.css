@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Amplitude Aubi", Sans-serif;
 }
 .form-base-layer {
     display:flex;
@@ -20,9 +21,18 @@
     padding: 65px;
     border-radius: 8px;
 }
+.label {
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px 1px 0px 1px;
+    border-radius: 5px 5px 0px 0px;
+    
+}
 .input-field {
-    border: 1px solid #818a91;
-    color: #373a3c;
+    border:none;
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 25px ;
 }
 .select {
     cursor: pointer;
@@ -31,6 +41,7 @@
     min-height: 40px;
     width: 100%;
     background-color: #F15E24;
+    border:none;
     border-radius: 5px 5px 5px 5px;
     font-family: "Amplitude Aubi", Sans-serif;
     font-weight: bold;
