@@ -1,5 +1,52 @@
 .site-structure {
     max-width: 1440px;
-    min-width: 900px;
+    min-height: 900px;
+    width: 100%;
     background-color: #9DBEBB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-base-layer {
+    display:flex;
+    justify-content: space-between;
+    width: 954px;
+    height: 594px;
+    background-color: #BE0909;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.25);
+    padding-left: 65px;
+}
+.form-img-structure {
+    display:flex;
+    justify-content: space-between;
+}
+.form-input-fields {
+    display:flex;
+    flex-direction: column;   
+}
+.input-labels {
+    -webkit-appearance: none;
+    max-width: 400px;
+    height: 72px;
+    border-bottom: 1px solid #9DBEBB;
+    background-color: #BE0909;
+    
+}
+.input-labels-email {
+    max-width: 160px;
+    height: 72px;
+}
+.img-duck {
+    margin-top:52px;
+    position: absolute;
+}
+.rectangle-right {
+    width: 345px;
+    height: 594px;
+    background-color: #FFB039;
+    /* display: inline-block; */
+    display:inline-flex;
+}
+.select {
+    -webkit-appearance: input none;
 }
